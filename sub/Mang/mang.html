@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tổng quan về mạng</title>
+  </head>
+  <body>
+    <a href="../ELV.html">ELV</a> <br />
+    <a href="./mang.html">Tổng quan về mạng </a> <br />
+    <a href="./capxoan.html">Cáp xoắn đôi - twisted pair </a> <br />
+    <a href="./Switch.html">Switch </a> <br />
+    <a href="./router.html">Router </a> <br />
+    <a href="./nhadan.html">Cho nhà dân </a><br />
+    <a href="./doanhnghiep.html">Cho doanh nghiệp </a> <br />
+    <hr>
+    <h2>Tổng quan về mạng.</h2>
+    <br />
+    <ol type="I">
+      <li>
+        <h3>Mạng là gì?</h3>
+        <br />
+        <p>
+          Mạng là môi trường trong đó thông tin được cung cấp, truyền đưa, thu
+          thập, xử lý, lưu trữ và trao đổi thông qua mạng viễn thông và mạng máy
+          tính. <br> 
+          Trong đó có những mô hình: <br>
+          <ol>
+            <li>
+              Mạng LAN <br>
+              Mạng cục bộ là một cái tên khác người ta dùng để nói về mạng LAN (Local Area Network – mạng máy tính cục bộ).Mạng LAN là một hệ thống mạng bao gồm các máy tính được kết nối với nhau trong một phạm vi nhỏ nhất định (nhà ở, trường học, tòa nhà…). <br>
+              Dưới đây là một mô hình mạng LAN đơn giản: <br>
+              <img src="/img/NguyenLy.jpg" alt="mô hình mạng LAN đơn giản." width="500">
+            </li>
+            <li>
+              Mạng MAN <br>
+              Mạng MAN (Metropolitan Area Network) là mạng dữ liệu băng rộng được thiết kế cho phạm vi trong thành phố, các thị xã, khoảng cách của chúng thường tối đa là 100km. Đây là mạng mở rộng của LAN.
+            </li>
+            <li>
+              Mạng WAN <br>
+              Mạng MAN (Metropolitan Area Network) là mạng dữ liệu băng rộng được thiết kế cho phạm vi trong thành phố, các thị xã, khoảng cách của chúng thường tối đa là 100km. <br>
+              Mạng Internet chính là một trường hợp của mạng WAN phục vụ các dịch vụ Mail, Web,… cho toàn cầu.
+            </li>
+          </ol>
+          Trong trường hợp của chúng ta, mô hình triển khai chính là LAN. Phương thức kết nối chủ yếu là cáp xoắn đôi, cáp quang và sóng vô tuyến.
+        </p>
+      </li>
+      <li>
+        <h3>Thiết bị thường sử dụng.</h3> <br>
+        Trong mạng LAN, các thiết bị thường dùng như: máy tính, máy in mạng, điện thoại IP, thiết bị IoT,...... <br>
+        Thiết bị kết nối thường dùng: Router, Firewall, switch, hub, access point, modem, cáp xoắn đôi, cáp quang,...... <br>
+
+      </li>
+      <br />
+      <li>
+        <h3>Hoạt động như nào?</h3> <br>
+       Trước hết, chúng ta cần làm quen với OSI (Open Systems Interconnection Reference Model -  Mô hình tham chiếu kết nối các hệ thống mở), một mô hình chuẩn hóa giao tiếp giữa các giao thức mạng. <br>
+
+       OSI chia giao tiếp thành bảy lớp, mỗi lớp có một bộ giao thức riêng. Trên thực tế, bạn sẽ nghe những điều như "nó xảy ra ở lớp thứ ba" rất nhiều. <br>
+
+       Bảy lớp của OSI bao gồm: <br>
+       <ol>
+           <li>Lớp vật lý (Physical Layer)</li>
+           <li>Lớp liên kết dữ liệu (Data link layer)</li>
+           <li>Lớp mạng (Network layer)</li>
+           <li>Lớp giao vận (Transport layer)</li>
+           <li>Lớp phiên (Session layer)</li>
+           <li>Lớp trình diễn (Presentation layer)</li>
+           <li>Lớp ứng dụng (Application layer)</li>
+        </ol>
+       Qua mô hình này, chúng ta có thể hiểu được con đường khi một ứng dụng khởi chạy trên thiết bị sẽ được xử lý như nào. <br>
+       Chúng ta chủ yếu triển khai công việc liên quan từ tầng 1 đến tầng 3 trong mô hình OSI. Đối với tầng 4 đến tầng 7, đó thuộc về phạm vi của lập trình viên phần ứng dụng. <br>
+       Để tìm hiểu sâu hơn về mô hình OSI, các bạn vui lòng tìm hiểu thêm trên INTERNET bởi nội dung trong đó khá dài và nhàm chán. Nhưng đừng vội bỏ qua, đó chính là kiến thức cơ bản nhất của INTERNET để bạn có thể làm việc hiệu quả và chất lượng. <br>
+      </li>
+      <br />
+    </ol>
+  </body>
+</html>
